@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-uni {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* nav related styles */
+
+nav{
+    max-width: 1050px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-title img {
+    height: 62px;
+}
+
+.nav-title-text {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.menu1{
+    color: #FEA301;
+}
+.menu2{
+    color: #01ACFD;
+}
+.menu3{
+    color: #05D4DF;
+}
+.menu4{
+    color: #5D58EF;
+}
+
+.nav-button{
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    padding: 10px 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+hr{
+    display: none;
+}
+
+.bars-3{
+    display: none;
+}
+/* banner or hero related style */
+.hero{
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.hero-heading{
+    height: 330px;
+}
+
+.heading-title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+} 
+
+#text-1{
+    color: orange;
+}
+#text-2{
+    color: #01ACFD;
+}
+.heading-description{
+    font-size: 1.2rem;
+}
+
+.heading-button{
+    background-color: black;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    nav{
+        max-width: 100%;
+        padding: 0 16px;
+    }
+    
+
+    .nav-menu{
+        display: none;
+    }
+    .nav-title-text{
+        display: none;
+    }
+    hr{
+        display: flex;
+    }
+    .bars-3{
+        display: flex;
+    }
+    
+    .hero{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
