@@ -294,6 +294,39 @@ hr {
     border-radius: 12px;
 }
 
+footer{
+    background-color: #01ACFD;
+}
+
+.footer-container{
+    display: flex;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 100px 0;
+    justify-content: space-between;
+    color: white
+}
+.footer-container p{
+    width: 350px;
+}
+
+.education{
+    display: flex;
+    align-items: center;
+}
+.education img{
+    height: 60px;
+}
+.education p{
+    font-size: 1rem;
+}
+.education-title{
+    font-size: 2rem;
+}
+.social-logos img{
+    margin-right: 5px;
+}
+
 
 @media screen and (max-width:576px) {
     nav {
@@ -343,5 +376,12 @@ hr {
     }
     .story-card-container{
         margin-bottom: 20px;
+    }
+    .footer-container{
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+    .footer-container p{
+        width: 100%;
     }
 }
