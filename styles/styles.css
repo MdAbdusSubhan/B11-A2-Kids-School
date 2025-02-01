@@ -8,7 +8,7 @@
 
 /* nav related styles */
 
-nav{
+nav {
     max-width: 1050px;
     margin: 20px auto;
     display: flex;
@@ -31,32 +31,35 @@ nav{
     font-weight: bold;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     display: flex;
     gap: 30px;
 }
 
-nav ul a{
+nav ul a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
 }
 
-.menu1{
+.menu1 {
     color: #FEA301;
 }
-.menu2{
+
+.menu2 {
     color: #01ACFD;
 }
-.menu3{
+
+.menu3 {
     color: #05D4DF;
 }
-.menu4{
+
+.menu4 {
     color: #5D58EF;
 }
 
-.nav-button{
+.nav-button {
     background-color: orange;
     border-radius: 10px;
     border: none;
@@ -67,15 +70,17 @@ nav ul a{
     font-weight: 600;
     cursor: pointer;
 }
-hr{
+
+hr {
     display: none;
 }
 
-.bars-3{
+.bars-3 {
     display: none;
 }
+
 /* banner or hero related style */
-.hero{
+.hero {
     max-width: 1050px;
     margin: 0 auto;
     display: flex;
@@ -83,27 +88,29 @@ hr{
     gap: 45px;
 }
 
-.hero-heading{
+.hero-heading {
     height: 330px;
 }
 
-.heading-title{
+.heading-title {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 20px;
-} 
+}
 
-#text-1{
+#text-1 {
     color: orange;
 }
-#text-2{
+
+#text-2 {
     color: #01ACFD;
 }
-.heading-description{
+
+.heading-description {
     font-size: 1.2rem;
 }
 
-.heading-button{
+.heading-button {
     background-color: black;
     border-radius: 12px;
     border: none;
@@ -115,70 +122,79 @@ hr{
 }
 
 /* curriculum related styles */
-    .curriculum{
-        background-image: url(../assets/bg.png);
-        text-align: center;
-    }
+.curriculum {
+    background-image: url(../assets/bg.png);
+    text-align: center;
+}
 
-    .curriculum-title{
-        font-size: 2.8rem;
-        font-weight: bold;
-        margin-top: 60px;
-        margin-bottom: 0;
-    }
+.curriculum-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
 
-    .curriculum-card{
-        display: flex;
-        max-width: 1050px;
-        margin: 80px auto;
-        gap: 28px;
-    }
-    .card{
-        border-radius: 18px;
-        padding: 50px 40px;
-    }
-    .card1{
-        border: 1px solid rgba(222, 245, 255, 1);
-        background: linear-gradient(rgba(135, 207, 235, 0.486), white);
-    }
-    .card2{
-        border: 1px solid #FFF4DC;
-        background: linear-gradient(#fff4dc5e, white);
-    }
-    .card3{
-        border: 1px solid #F2E8FF;
-        background: linear-gradient(#f2e8ffc5, white);
-    }
-    .card1 button{
-        background: none;
-        font-size: bold;
-        color: #64C8FF;
-        border: none;
-    }
-    .card2 button{
-        background: none;
-        font-size: bold;
-        color: #F0AA00;
-        border: none;
-    }
-    .card3 button{
-        background: none;
-        font-size: bold;
-        color: #8700FF;
-        border: none;
-    }
+.curriculum-card {
+    display: flex;
+    max-width: 1050px;
+    margin: 80px auto;
+    gap: 28px;
+}
 
-    .card-title{
-        font-size: 1.5rem;
-        color: #202020;
-        margin-bottom: 30px;
-    }
-    .card-description{
-        font-weight: 600;
-        color: #808080;
-        margin-bottom: 30px;
-    }
-.curriculum-buttons button{
+.card {
+    border-radius: 18px;
+    padding: 50px 40px;
+}
+
+.card1 {
+    border: 1px solid rgba(222, 245, 255, 1);
+    background: linear-gradient(rgba(135, 207, 235, 0.486), white);
+}
+
+.card2 {
+    border: 1px solid #FFF4DC;
+    background: linear-gradient(#fff4dc5e, white);
+}
+
+.card3 {
+    border: 1px solid #F2E8FF;
+    background: linear-gradient(#f2e8ffc5, white);
+}
+
+.card1 button {
+    background: none;
+    font-size: bold;
+    color: #64C8FF;
+    border: none;
+}
+
+.card2 button {
+    background: none;
+    font-size: bold;
+    color: #F0AA00;
+    border: none;
+}
+
+.card3 button {
+    background: none;
+    font-size: bold;
+    color: #8700FF;
+    border: none;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #202020;
+    margin-bottom: 30px;
+}
+
+.card-description {
+    font-weight: 600;
+    color: #808080;
+    margin-bottom: 30px;
+}
+
+.curriculum-buttons button {
     background-color: orange;
     padding: 20px 30px;
     border-radius: 50%;
@@ -187,42 +203,145 @@ hr{
     font-size: 3rem;
     font-weight: bolder;
     color: white;
+    margin-bottom: 60px;
 }
 
+/* stories related styles */
+
+.stories {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.349), #fea10148), url(../assets/bg.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+
+}
+
+.story-title {
+    font-size: 2.8rem;
+    color: 000000;
+    font-weight: bold;
+}
+
+.story-card-container {
+    display: flex;
+    max-width: 1050px;
+    margin: 80px auto;
+    gap: 20px;
+}
+
+.storybook1 {
+    border-radius: 16px;
+    background-color: white;
+}
+
+.storybook1 img {
+    width: 100%;
+
+}
+
+
+.move-button {
+    background-color: #3CD8E8;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+}
+
+.story-card-title {
+    font-size: 1.5rem;
+    padding: 0 30px;
+}
+
+.storybook1 p {
+    font-weight: 600;
+    color: #666666;
+    padding: 0 30px;
+}
+
+.storybook2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.storybook2-title {
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 0 30px;
+}
+
+.story-1 button {
+    background-color: #5D58F0;
+}
+
+.story-2 button{
+    background-color: #95B226;
+}
+
+.stories-button{
+    color: white;
+    background-color: black;
+    padding: 15px 20PX;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+
+
 @media screen and (max-width:576px) {
-    nav{
+    nav {
         max-width: 100%;
         padding: 0 16px;
-    }
-    
 
-    .nav-menu{
+    }
+
+
+    .nav-menu {
         display: none;
     }
-    .nav-title-text{
+
+    .nav-title-text {
         display: none;
     }
-    hr{
+
+    hr {
         display: flex;
     }
-    .bars-3{
+
+    .bars-3 {
         display: flex;
     }
-    
-    .hero{
+
+    .hero {
         flex-direction: column-reverse;
         text-align: center;
     }
 
-    .curriculum-title{
+    .curriculum-title {
         padding-top: 40px;
     }
-    .curriculum-card{
+
+    .curriculum-card {
         flex-direction: column;
         margin: 0 20px;
         margin-top: 10px;
     }
-    .curriculum-buttons{
+
+    .curriculum-buttons {
         display: none;
+    }
+
+    .hide{
+        display: none;
+    }
+    .story-card-container{
+        margin-bottom: 20px;
     }
 }
